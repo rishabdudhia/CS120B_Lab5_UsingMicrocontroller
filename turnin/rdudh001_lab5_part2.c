@@ -101,7 +101,7 @@ void Tick()
 	    state = dec_wait;
 	    break;
 	case reset:
-	    state = wait;
+	    state = reset_wait;
 	    break;
 
         default:
