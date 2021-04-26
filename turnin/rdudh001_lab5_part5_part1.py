@@ -30,10 +30,10 @@ tests = [
         {'description': 'PINA: 0xF2 => PORTC: 0x60',
         'steps': [{'inputs': [('PINA', 0xF2)], 'iterations': 5}],
         'expected': [('PORTC', 0x60)]},
-
+]
 
 #Optionally you can add a set of "watch" variables these need to be global or static and may need
 # to be scoped at the function level (for static variables) if there are naming conflicts. The 
 # variables listed here will display everytime you hit (and stop at) a breakpoint
-watch = ['state','cntA0','cntA1','Tick::actualC']
+#watch = ['state','cntA0','cntA1','Tick::actualC']
 
